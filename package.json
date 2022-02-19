@@ -1,0 +1,38 @@
+{
+  "name": "apidictionaryvenezuelan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seedgoose": "seedgoose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanpielmago/apiDictionaryVenezuelan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeanpielmago/apiDictionaryVenezuelan/issues"
+  },
+  "homepage": "https://github.com/jeanpielmago/apiDictionaryVenezuelan#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "colonize": "^1.0.5",
+    "cors": "^2.8.5",
+    "dotenv": "^12.0.4",
+    "expect": "^27.4.6",
+    "express": "^4.17.2",
+    "flatten": "^1.0.3",
+    "jasmine": "^4.0.2",
+    "mongoose": "^6.1.6",
+    "seedgoose": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
